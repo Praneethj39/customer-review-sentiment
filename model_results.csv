@@ -1,0 +1,6 @@
+model,neg_precision,neg_recall,neg_f1,macro_f1
+VADER lexicon (no training),0.731,0.792,0.76,0.867
+Naive Bayes (TF-IDF),1.0,0.208,0.345,0.653
+"Logistic Regression (TF-IDF, 0.5 cut-off)",0.917,0.458,0.611,0.791
+"Logistic Regression (TF-IDF, tuned cut-off 0.30)",0.81,0.708,0.756,0.866
+Hybrid: TF-IDF + VADER (tuned cut-off 0.45),0.857,0.75,0.8,0.89
